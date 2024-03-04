@@ -9,6 +9,6 @@ public class BossCreate : MonoBehaviour
 
     public void BossSpawn()
     {
-        Instantiate(bossTire, spawnPoint);
+        Instantiate(bossTire, spawnPoint.position, bossTire.transform.rotation);
     }
 }

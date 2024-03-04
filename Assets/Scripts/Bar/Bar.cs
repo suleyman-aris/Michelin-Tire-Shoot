@@ -20,7 +20,7 @@ public class Bar : MonoBehaviour
 
     public void BarValue(float value)
     {
-        barValue += value/10;
+        barValue += value/25;
         barImage.fillAmount = barValue;
         if (barValue >= 1)
         {
